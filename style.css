@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+
+    margin: auto;
+    width: 30vw;
+    min-width: none;
+    height: 20rem;
+    margin-top: 13vh;
+}
+
+.container-after {
+
+    margin: auto;
+    width: 30vw;
+    display: none;
+    flex-direction: column;
+    height: 20rem;
+    margin-top: 13vh;
+}
+
+::placeholder {
+    color: rgb(83, 83, 83);
+}
+
+#result {
+    width: 30vw;
+    height: 15vh;
+    color: white;
+    font-size: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.box {
+    height: 10vh;
+    padding-left: 5px;
+    outline: none;
+    border: 1px solid white;
+}
+
+.btn {
+    width: 30vw;
+    color: white;
+    border: none;
+
+    height: 25%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#calcBtn {
+    height: 10vh;
+    margin-top: 0.5vh;
+    border: none;
+
+}
+
+#backBtn {
+    height: 10vh;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+    border: none;
+}
+
+.btnAfter {
+    background-color: rgb(39, 39, 39);
+    color: white;
+    transition: 0.2s;
+}
+
+.btnAfter:hover {
+    background-color: rgb(65, 65, 65);
+
+}
+
+.btn:hover {
+    box-shadow: 3px 3px 10px 3px rgb(0, 0, 0);
+}
+
+#add {
+    background-color: rgb(40, 176, 40);
+}
+
+#sub {
+    background-color: rgb(195, 47, 47);
+
+}
+
+#mul {
+    background-color: rgb(196, 139, 35);
+
+}
+
+#divide {
+    background-color: rgb(63, 63, 172);
+
+}
+
+@media screen and (max-width:900px) {
+    .container {
+        width: 90vw;
+    }
+
+    .container-after {
+        width: 90vw;
+    }
+
+    .btn {
+        width: 90vw;
+    }
+
+    #result {
+
+        width: 90vw;
+        font-size: 3.5vh;
+    }
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 3vh;
+}
